@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Drag and Drop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="boards">
+        <div class="board">
+            <h3>Todo</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status info"></div>
+                    <div class="content">Create simple kanban</div>
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <h3>In progress</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status warning"></div>
+                    <div class="content">Create repositorie</div>
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <h3>Done</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status success"></div>
+                    <div class="content">Think about development idea</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
