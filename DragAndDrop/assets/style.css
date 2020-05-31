@@ -1,0 +1,112 @@
+
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #232323;
+    color:  #FFF;
+    margin: 0;
+}
+
+.boards {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.board {
+    background-color: #3B393A;
+    border: 1px solid #3B393A;
+    border-radius: 4px;
+    margin: 0 16px
+}
+
+.board h3 {
+    padding: 16px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: #353535;
+}
+
+.dropzone {
+    padding: 16px;
+    min-width: 282px;
+    min-height: 200px;
+}
+
+.card {
+    padding: 16px;
+    box-shadow: 0 2px 2px -1px rgba(255, 255, 255, 0.8);
+    width: 250px;
+    margin: 25px 0;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #434343;
+}
+
+.card .status {
+    width: 30px;
+    height: 8px;
+    background: gray;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.status.success {
+background: #95ec30;
+}
+
+.status.info {
+    background: #30dfec;
+}
+
+.status.warning {
+    background: #fcb212;
+}
+
+.highlight {
+    background: #FD951F08;
+}
+
+.is-dragging {
+    cursor: move;
+    opacity: 0.1;
+}
+
+.rotate {
+    transform: rotate(10deg);
+}
+
+.over {
+    background-color: #4cd13711;
+}
+
+/* Topbar */
+
+.topnav {
+    background-color: #3B393A;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-item {
+    margin: 5px;
+    border-radius: 4px;
+    background-color: #515151;
+}
+
+.topnav i {
+    margin-right: 4px;
+}
