@@ -19,7 +19,7 @@ Simple Drang and Drop using only HTML, CSS and JavaScript.
 * HTML5
 * CSS3
 * JavaScript
-*[HTML Drag and Drop](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
+* [HTML Drag and Drop](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
 
 Project Link: [GitHub](https://github.com/DaviLima99/coding-front)
 
