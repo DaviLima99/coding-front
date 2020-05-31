@@ -27,7 +27,7 @@
 
 Repo where I build front-end utilities using only HTML, CSS and JavaScript.
 
-* [Drag And Drop](https://github.com/DaviLima99/coding-front/tree/master/DragAndDrop) - Simple Drag an Drop inspiring on Trello.
+* [Drag And Drop](https://github.com/DaviLima99/coding-front/tree/master/DragAndDrop) - Simple Drag and Drop inspiring on Trello.
 <!-- CONTRIBUTING -->
 ## Contributing
 
